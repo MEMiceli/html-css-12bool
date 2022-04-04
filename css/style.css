@@ -7,3 +7,18 @@
     height: 40px;
     border: 1px solid white;
 }
+.big{
+    background-color: rgb(0, 97, 249);
+    padding: 10px;
+    height: 70px;
+    border: 1px solid white;
+    
+}
+.row>.green{
+    background-color: rgb(0, 221, 90);
+    border: none;
+    
+}
+main{
+    margin-top: 20px;
+}
