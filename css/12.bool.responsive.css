@@ -122,6 +122,8 @@
 
 @media screen and (min-width: 576px){
 
+    /* col min-width 576px */
+
     .col-sm-1{
         flex-basis: calc(100% / 12);
         max-width: calc(100% / 12);
@@ -170,9 +172,63 @@
         flex-basis: calc((100% / 12) * 12);
         max-width: calc((100% / 12) * 12);
     }
-    
+
+    /* /col min-width 576px */
+
+
+    /* col-sms-offset min-width 576px */
+
+    .col-sm-offset-1{
+        margin-left: calc(100% / 12);
+        
+    }
+    .col-sm-offset-2{
+        margin-left: calc((100% / 12) * 2 );
+        
+    }
+    .col-sm-offset-3{
+        margin-left: calc((100% / 12) * 3 );
+        
+    }   
+    .col-sm-offset-4{
+        margin-left: calc((100% / 12) * 4 );
+        
+    }
+    .col-sm-offset-5{
+        margin-left: calc((100% / 12) * 5 );
+        
+    }
+    .col-sm-offset-6{
+        margin-left: calc((100% / 12) * 6 );
+        
+    }
+    .col-sm-offset-7{
+        margin-left: calc((100% / 12) * 7 );
+        
+    }
+    .col-sm-offset-8{
+        margin-left: calc((100% / 12) * 8 );
+        
+    }
+    .col-sm-offset-9{
+        margin-left: calc((100% / 12) * 9 );
+        
+    }
+    .col-sm-offset-10{
+        margin-left: calc((100% / 12) * 10 );
+        
+    }
+    .col-sm-offset-11{
+        margin-left: calc((100% / 12) * 11 );
+        
+    }
 }
+/* /col-sm-offset min-width 576px */
+
 @media screen and (min-width: 768px) {
+
+    /* col-md min-width 768px */
+   
     .col-md-1{
         flex-basis: calc(100% / 12);
         max-width: calc(100% / 12);
@@ -221,9 +277,61 @@
         flex-basis: calc((100% / 12) * 12);
         max-width: calc((100% / 12) * 12);
     }
-    
+
+    /* /col-md min-width 768px */
+
+    /* col-md-offset min-width 768px */
+
+    .col-md-offset-1{
+        margin-left: calc(100% / 12);
+        
+    }
+    .col-md-offset-2{
+        margin-left: calc((100% / 12) * 2 );
+        
+    }
+    .col-md-offset-3{
+        margin-left: calc((100% / 12) * 3 );
+        
+    }   
+    .col-md-offset-4{
+        margin-left: calc((100% / 12) * 4 );
+        
+    }
+    .col-md-offset-5{
+        margin-left: calc((100% / 12) * 5 );
+        
+    }
+    .col-md-offset-6{
+        margin-left: calc((100% / 12) * 6 );
+        
+    }
+    .col-md-offset-7{
+        margin-left: calc((100% / 12) * 7 );
+        
+    }
+    .col-md-offset-8{
+        margin-left: calc((100% / 12) * 8 );
+        
+    }
+    .col-md-offset-9{
+        margin-left: calc((100% / 12) * 9 );
+        
+    }
+    .col-md-offset-10{
+        margin-left: calc((100% / 12) * 10 );
+        
+    }
+    .col-md-offset-11{
+        margin-left: calc((100% / 12) * 11 );
+        
+    }
+/* /col-md-offset min-width 768px */
 }
 @media screen and(min-width: 992px) {
+
+    /* col-lg min-width 992px */
+
     .col-lg-1{
         flex-basis: calc(100% / 12);
         max-width: calc(100% / 12);
@@ -272,5 +380,54 @@
         flex-basis: calc((100% / 12) * 12);
         max-width: calc((100% / 12) * 12);
     }
-    
+
+    /* /col-lg min-width 992px */
+
+    /* /col-lg-offset min-width 992px */
+
+    .col-lg-offset-1{
+        margin-left: calc(100% / 12);
+        
+    }
+    .col-lg-offset-2{
+        margin-left: calc((100% / 12) * 2 );
+        
+    }
+    .col-lg-offset-3{
+        margin-left: calc((100% / 12) * 3 );
+        
+    }   
+    .col-lg-offset-4{
+        margin-left: calc((100% / 12) * 4 );
+        
+    }
+    .col-lg-offset-5{
+        margin-left: calc((100% / 12) * 5 );
+        
+    }
+    .col-lg-offset-6{
+        margin-left: calc((100% / 12) * 6 );
+        
+    }
+    .col-lg-offset-7{
+        margin-left: calc((100% / 12) * 7 );
+        
+    }
+    .col-lg-offset-8{
+        margin-left: calc((100% / 12) * 8 );
+        
+    }
+    .col-lg-offset-9{
+        margin-left: calc((100% / 12) * 9 );
+        
+    }
+    .col-lg-offset-10{
+        margin-left: calc((100% / 12) * 10 );
+        
+    }
+    .col-lg-offset-11{
+        margin-left: calc((100% / 12) * 11 );
+        
+    }
+/* /col-md-offset min-width 768px */
 }
